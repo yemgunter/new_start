@@ -1,7 +1,5 @@
-# JumpStart
-
 <div>
-<h1> New Start 2021 </h1>
+<h1> Mindset Expansion</h1>
 <p>Refreshing then shifting my mind from BA to SW Dev courses.</p>
 </div>
 
