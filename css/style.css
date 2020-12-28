@@ -69,6 +69,13 @@ body{
         margin: 20px 0;
 }
 
+.box-2{
+        border: 3px dotted #ccc;
+        padding: 20px;
+        margin: 20px 0;
+        
+}
+
 /*** Target Text Styling ***/ 
 .box-1 h1{
         font-family: Tahoma;
