@@ -9,6 +9,14 @@
 
 /*** Body Styling ***/
 
+        /*** Zero Out Margin and Padding Entire Body Section
+
+*{
+        margin: 0;
+        padding: 0;
+}
+        For Styling Example Above ***/
+
 body{
         background-color: #f4f4f4;
         color:#555555;
@@ -18,7 +26,61 @@ body{
         font-weight: normal;
         /*** Same as Above ***/
         font: normal 16px Arial, Helvetica, sans-serif;
+        
+        line-height: 1.6em;
+        margin: 0;
+        
+        
 }
+
+/*** Target Classes ***/
+
+
+.container{
+        width: 80%;
+        margin: auto;
+}
+.box-1{
+        background-color: #333333;
+        color: #fff;
+        
+        /*** Border ***/
+        border-right: 5px red solid;
+        border-left: 5px red solid;
+        border-top: 5px red solid;
+        border-bottom: 5px red solid;
+        border-width: 3px;
+        border-bottom-width: 10px;
+        border-top-style: dotted;
+         /*** Same as Above ***/
+        border: 5px red solid;
+        
+        
+        /*** Padding ***/        
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+         /*** Same as Above ***/
+        padding: 20px;
+        
+        /*** Margin ***/      
+        margin-top: 20px;
+        margin: 20px 0;
+}
+
+/*** Target Text Styling ***/ 
+.box-1 h1{
+        font-family: Tahoma;
+        font-weight: 800;
+        font-style: italic;
+        text-decoration: underline;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        word-spacing: 1em;
+        
+}
+
 
 /*** Footer Styling ***/
 
