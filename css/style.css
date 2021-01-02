@@ -7,6 +7,26 @@
         padding: 10px;
 }
 
+
+nav ul{
+        list-style: none;
+}
+
+nav a{
+        text-decoration: none;
+        color: #000;
+}
+
+nav a:hover{
+        color: red;
+}
+
+nav a:active{
+        color: green;
+}
+
+
+
 /*** Body Styling ***/
 
         /*** Zero Out Margin and Padding Entire Body Section
@@ -29,9 +49,26 @@ body{
         
         line-height: 1.6em;
         margin: 0;
-        
-        
 }
+
+ul{
+        list-style: none;
+}
+
+a{
+        text-decoration: none;
+        color: #000;
+}
+
+a:hover{
+        color: red;
+}
+
+a:active{
+        color: green;
+}
+
+
 
 /*** Target Classes ***/
 
@@ -40,6 +77,25 @@ body{
         width: 80%;
         margin: auto;
 }
+
+.button{
+        background-color: #333;
+        color:#fff;
+        padding: 10px 15px;
+        border: none;
+}
+
+.button:hover{
+        background: red;
+        color:#fff;
+        padding: 10px 15px;
+        border: none;
+}
+
+.clr{
+        clear:both;
+}
+
 .box-1{
         background-color: #333333;
         color: #fff;
@@ -69,13 +125,6 @@ body{
         margin: 20px 0;
 }
 
-.box-2{
-        border: 3px dotted #ccc;
-        padding: 20px;
-        margin: 20px 0;
-        
-}
-
 /*** Target Text Styling ***/ 
 .box-1 h1{
         font-family: Tahoma;
@@ -87,6 +136,145 @@ body{
         word-spacing: 1em;
         
 }
+
+.box-2{
+        border: 3px dotted #ccc;
+        padding: 20px;
+        margin: 20px 0;
+        
+}
+
+/*** Target Link Styling ***/ 
+
+.categories{
+        border: 1px #ccc solid;
+        padding: 10px;
+        border-radius: 15px;
+        
+}
+
+.categories h2{
+        text-align: center;
+}
+
+.categories ul{
+        padding: 0;
+        padding-left: 20px;
+        list-style: none;
+        
+}
+
+.categories li{
+        padding-bottom: 6px;
+        border-bottom: dotted 1px #333;
+        list-style-image: url('../images/check.png');
+}
+
+/*** Target Form Styling ***/ 
+.my-form{
+        padding: 20px;
+}
+        
+.my-form .form-group{
+        padding-bottom: 15px;
+        
+}
+
+.my-form label{
+        display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+        padding: 8px;
+        width: 100%;
+        
+}
+
+
+/*** Target Block Styling ***/ 
+.block{
+        float: left;
+        width: 33.3%;
+        border: 1px solid #333;
+        padding: 10px;
+        box-sizing: border-box;
+}
+
+#main-block{
+        float: left;
+        width: 70%;
+        padding: 15px;
+        box-sizing: border-box;
+}
+
+#sidebar{
+        float: right;
+        width: 30%;
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        box-sizing: border-box;
+}
+
+/*** Target Position Styling ***/ 
+
+.p-box{
+        width: 800px;
+        height: 500px;
+        border: 1px solid #000;
+        margin-top:30px;
+        position: relative;
+        background-image: url('../images/abstract1.jpg');
+        
+        background-repeat: no-repeat;
+        background-position: center center;
+       
+}
+
+.p-box h1{
+        position: absolute;
+        top: 100px;
+        left: 200px;
+}
+
+.p-box h2{
+        position: absolute;
+        bottom: 40px;
+        right: 100px;
+}
+
+.fix-me{
+        position: fixed;
+        top: 400px;
+}
+
+.my-list li:first-child{
+        background: red;
+}
+
+.my-list li:last-child{
+        background: blue;
+}
+
+.my-list li:nth-child(5){
+        background: yellow;
+}
+
+.my-list li:nth-child(even){
+        background: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*** Footer Styling ***/
