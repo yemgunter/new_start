@@ -1,10 +1,70 @@
 /*** Header Styling ***/
 
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
 #main-header{
         text-align: center;
-        background-color: black;
+        background-color: #BF1E2D;
         color: white;
         padding: 10px;
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+        color: red;
+}
+
+#navbar a:active{
+        color: green;
+}
+
+
+#showcase{
+    background-image: url('../images/showcase.jpg');
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
 }
 
 
@@ -37,19 +97,6 @@ nav a:active{
 }
         For Styling Example Above ***/
 
-body{
-        background-color: #f4f4f4;
-        color:#555555;
-        
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        font-weight: normal;
-        /*** Same as Above ***/
-        font: normal 16px Arial, Helvetica, sans-serif;
-        
-        line-height: 1.6em;
-        margin: 0;
-}
 
 ul{
         list-style: none;
@@ -73,11 +120,6 @@ a:active{
 /*** Target Classes ***/
 
 
-.container{
-        width: 80%;
-        margin: auto;
-}
-
 .button{
         background-color: #333;
         color:#fff;
@@ -99,28 +141,8 @@ a:active{
 .box-1{
         background-color: #333333;
         color: #fff;
-        
-        /*** Border ***/
-        border-right: 5px red solid;
-        border-left: 5px red solid;
-        border-top: 5px red solid;
-        border-bottom: 5px red solid;
-        border-width: 3px;
-        border-bottom-width: 10px;
-        border-top-style: dotted;
-         /*** Same as Above ***/
         border: 5px red solid;
-        
-        
-        /*** Padding ***/        
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-         /*** Same as Above ***/
         padding: 20px;
-        
-        /*** Margin ***/      
         margin-top: 20px;
         margin: 20px 0;
 }
@@ -204,6 +226,7 @@ a:active{
         float: left;
         width: 70%;
         padding: 15px;
+        margin: auto;
         box-sizing: border-box;
 }
 
@@ -213,13 +236,14 @@ a:active{
         background-color: #333;
         color: white;
         padding: 15px;
+        margin: auto;
         box-sizing: border-box;
 }
 
 /*** Target Position Styling ***/ 
 
 .p-box{
-        width: 800px;
+        width: 90%;
         height: 500px;
         border: 1px solid #000;
         margin-top:30px;
@@ -233,13 +257,11 @@ a:active{
 
 .p-box h1{
         position: absolute;
-        top: 100px;
-        left: 200px;
+        left: 100px;
 }
 
 .p-box h2{
         position: absolute;
-        bottom: 40px;
         right: 100px;
 }
 
@@ -266,20 +288,30 @@ a:active{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*** Footer Styling ***/
 
 #main-footer{
         text-align: center;
         font-size: 18px;
 }
+
+
+
+
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float: none;    
+    }
+    
+     #sidebar{
+        width:100%;
+        float: none;   
+    }
+    
+}
+
+
+
+
+
